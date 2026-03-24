@@ -1,0 +1,75 @@
+{
+    "foliage": {
+        "name": "Foliage",
+        "int": 999,
+        "description": "Generic alien plant life. Barely edible, with a dissatisfying taste. Might make you sick. Decays fast. Often used in crafting.",
+        "qualities": {
+            
+        },
+        "recipe": [
+            
+        ]
+    },
+    "rope": {
+        "name": "Foliage rope",
+        "int": 999,
+        "description": "A few bits of foliage, tied together into a rope. Used for crafting.",
+        "qualities": {
+            "rippable": 999
+        },
+        "recipe": [
+            "foliage",
+            "foliage"
+        ]
+    },
+    "foliagebag": {
+        "name": "Foliage bag",
+        "int": 999,
+        "description": "A very flimsy bag made of tied together foliage.",
+        "qualities": {
+            "rippable": 999
+        },
+        "recipe": [
+            "foliage",
+            "foliage",
+            "rope"
+        ]
+    },
+    "flimsyknife": {
+        "name": "Flimsy knife",
+        "int": 999,
+        "description": "A small, dull, brittle knife. Can be used for rudimentary crafting. Little to no use in combat.\n\n<color=\"red\">Can be used in the health panel to amputate severely infected limbs.",
+        "qualities": {
+            "cutting": 999
+        },
+        "recipe": [
+            "woodcube",
+            "scrapmetal%90",
+            "rope"
+        ]
+    },
+    "woodcube":{
+        "name": "Wood cube",
+        "int": 999,
+        "description": "Solid cube made of melted together wood. While it's very frail, it's also light.",
+        "qualities":{
+            "rippable": 999
+        },
+        "recipe":[
+            "foliage",
+            "foliage",
+            "foliage"
+        ]
+    },
+    "scrapmetal":{
+        "name": "Scrap metal",
+        "int": 999,
+        "description": "Bits and pieces of steel from destroyed machinery. Can be placed down if above 25% condition. Commonly used as currency between survivors, and for crafting.",
+        "qualities":{
+            "rippable": 999
+        },
+        "recipe":[
+            
+        ]
+    }
+}
